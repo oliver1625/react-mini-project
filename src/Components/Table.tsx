@@ -15,8 +15,6 @@ function Table() {
     const [isCheck, setIsCheck] = useState<string[]>([]);
     const [data, setData] = useState([]);
     const [filteredResults, setFilteredResults] = useState([]);
-
-    console.log(users);
     
     useEffect(() =>{
         setData(users?.sort((a: User,b :User) => {
@@ -33,28 +31,29 @@ function Table() {
         
     },[users])
 
-    useEffect(() => {
-        if (!isCheckAll) {
+    const handleSelectAll = (e:HandleSelectUserInterface) => {
+        setIsCheckAll(!isCheckAll);
+        // console.log("0",!isCheckAll)
+
+        setIsCheck(filteredResults.map((item:any) => item.id));
+        if (isCheckAll) {
             setIsCheck([]);
         }
-        
-    },[isCheckAll])
-
-    const handleSelectAll = (e:HandleSelectUserInterface) => {
-        setIsCheckAll((prev) => !prev);
-        setIsCheck(filteredResults.map((item:any) => item.id));
     }
 
     const handleClick = (e:HandleSelectUserInterface) => {
+        const totalUsers = users.length; 
         const { id, checked } = e.target;
-        setIsCheck([...isCheck, id]);
+        let selectedUser = [...isCheck,id];
+        
         if (!checked) {
-            setIsCheck(isCheck.filter(item => item !== id));
+            selectedUser = selectedUser.filter(item => item !== id);
         }
+        setIsCheck(selectedUser);
+        const totalSelectedUser = selectedUser.length;
+        setIsCheckAll(totalSelectedUser == totalUsers)
+        console.log(totalSelectedUser, totalUsers);
     }
-
-    // const[selectUser, setSelectUser] = useState();
-
     const searchItems = (e: any) => {
         const searchValue = e.target.value;
         console.log(searchValue);
@@ -82,7 +81,6 @@ function Table() {
         <div className="table">
             <Header
                 handleSearch={searchItems}
-                // selectUser={selectUser}
             />
             <div className="table-responsive">
                 <div className="table-wrapper">

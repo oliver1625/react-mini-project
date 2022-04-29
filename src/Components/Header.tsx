@@ -7,8 +7,8 @@ function Header( props:any) {
         <header className="">
             <div className="header">
                 <h1>Users</h1>
-                <div className="">
-                    <div className="search-wrapper">
+                <div className="header-right">
+                    <div className="search-box">
                         <input 
                             value={selectUser}
                             className='search' 
@@ -16,7 +16,9 @@ function Header( props:any) {
                             onChange={e => handleSearch(e)} 
                             placeholder='Search' 
                         />
-                        <i id='searchIcon' className="fa fa-search"></i> 
+                        <a href="" className='icon'>
+                            <i className="fa fa-search" id='searchIcon'></i> 
+                        </a>
                     </div>                   
                     <AddUserBtn />
                 </div>
