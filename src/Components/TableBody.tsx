@@ -1,16 +1,37 @@
 import React from 'react';
+import { HandleSelectUserInterface, User } from '../types'
 
-function TableBody() {
+interface TableBodyProps{
+    isCheck: string[],
+    handleClick: (e:HandleSelectUserInterface) => void,
+    data: User[]
+}
+
+function TableBody(props: TableBodyProps) {
+    const {data, isCheck, handleClick} = props
     return (
-        <div className="table-body">
-            <input className='td' type="checkbox" />
-            <p className='td'>Oliver</p>
-            <p className='td'>Oliverdahal</p>
-            <p className='td'>Oliver@</p>
-            <p className='td'>@9843457544</p>
-            <p className='td'>@sdjnfgsjkdvnjs</p>
-            <p className='td'>@sdjnfgsjkdvnjs</p>
-        </div>
+        <>
+            {   
+                data?.map((item) => (
+                    <div className="table-body" key={item.id}>
+                        <input 
+                        className='td checkbox' 
+                        type="checkbox" 
+                        id={item.id} 
+                        checked={isCheck.includes(item.id)} 
+                        onChange={handleClick} 
+                        />
+                        <p className='td'>{item.name}</p>
+                        <p className='td'>{item.username}</p>
+                        <p className='td'>{item.email}</p>
+                        <p className='td'>{item.phone}</p>
+                        <p className='td'>{item.website}</p>
+                        <p className='td'>{item.address.street}</p>
+                    </div>
+                ))
+            }
+        </>
+
     );
 }
 
