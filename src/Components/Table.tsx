@@ -33,7 +33,6 @@ function Table() {
 
     const handleSelectAll = (e:HandleSelectUserInterface) => {
         setIsCheckAll(!isCheckAll);
-        // console.log("0",!isCheckAll)
 
         setIsCheck(filteredResults.map((item:any) => item.id));
         if (isCheckAll) {

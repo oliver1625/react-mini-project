@@ -187,7 +187,7 @@ p{
   font-size: 1.1rem;
   transition: .5s ease;
   line-height: 37px;
-  color: #fff;
+  color: black;
   display: none;
   transition: all .5s ease-in-out;
 }
