@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="387" height="609" viewBox="0 0 387 609">
+  <defs>
+    <filter id="Rectangle_8" x="0" y="0" width="387" height="609" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-opacity="0.259"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="tasker" transform="translate(-874 -3197)">
+    <g transform="matrix(1, 0, 0, 1, 874, 3197)" filter="url(#Rectangle_8)">
+      <rect id="Rectangle_8-2" data-name="Rectangle 8" width="351" height="573" transform="translate(18 18)" fill="#fff"/>
+    </g>
+    <text id="Samantha" transform="translate(1013.725 3385)" fill="#747171" font-size="24" font-family="Segoe UI" font-weight="600"><tspan x="0" y="0">Samantha</tspan></text>
+    <text id="Speciality" transform="translate(907.784 3409)" fill="#747171" font-size="15" font-family="Segoe UI"><tspan x="0" y="0">Speciality</tspan></text>
+    <text id="assembly_pet_care_gardening" data-name="assembly, pet care, gardening" transform="translate(994.104 3409)" fill="#747171" font-size="15" font-family="Segoe UI" font-style="italic"><tspan x="0" y="0">assembly, pet care, gardening</tspan></text>
+    <text id="Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incididunt" data-name="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt" transform="translate(908 3443)" fill="#747171" font-size="18" font-family="Segoe UI"><tspan x="0" y="0">Lorem ipsum dolor sit amet, consectetur </tspan><tspan x="0" y="24">adipiscing elit, sed do eiusmod tempor </tspan><tspan x="0" y="48">incididunt</tspan></text>
+    <g id="star_black_24dp_1_" data-name="star_black_24dp (1)" transform="translate(908 3536)">
+      <g id="Group_108" data-name="Group 108">
+        <path id="Path_110" data-name="Path 110" d="M0,0H24V24H0Z" fill="none"/>
+        <path id="Path_111" data-name="Path 111" d="M0,0H24V24H0Z" fill="none"/>
+      </g>
+      <g id="Group_109" data-name="Group 109">
+        <path id="Path_112" data-name="Path 112" d="M12,17.27,18.18,21l-1.64-7.03L22,9.24l-7.19-.61L12,2,9.19,8.63,2,9.24l5.46,4.73L5.82,21Z" fill="#da2b39"/>
+      </g>
+    </g>
+    <g id="star_black_24dp_1_2" data-name="star_black_24dp (1)" transform="translate(932 3536)">
+      <g id="Group_108-2" data-name="Group 108">
+        <path id="Path_110-2" data-name="Path 110" d="M0,0H24V24H0Z" fill="none"/>
+        <path id="Path_111-2" data-name="Path 111" d="M0,0H24V24H0Z" fill="none"/>
+      </g>
+      <g id="Group_109-2" data-name="Group 109">
+        <path id="Path_112-2" data-name="Path 112" d="M12,17.27,18.18,21l-1.64-7.03L22,9.24l-7.19-.61L12,2,9.19,8.63,2,9.24l5.46,4.73L5.82,21Z" fill="#da2b39"/>
+      </g>
+    </g>
+    <g id="star_black_24dp_1_3" data-name="star_black_24dp (1)" transform="translate(956 3536)">
+      <g id="Group_108-3" data-name="Group 108">
+        <path id="Path_110-3" data-name="Path 110" d="M0,0H24V24H0Z" fill="none"/>
+        <path id="Path_111-3" data-name="Path 111" d="M0,0H24V24H0Z" fill="none"/>
+      </g>
+      <g id="Group_109-3" data-name="Group 109">
+        <path id="Path_112-3" data-name="Path 112" d="M12,17.27,18.18,21l-1.64-7.03L22,9.24l-7.19-.61L12,2,9.19,8.63,2,9.24l5.46,4.73L5.82,21Z" fill="#da2b39"/>
+      </g>
+    </g>
+    <g id="star_black_24dp_1_4" data-name="star_black_24dp (1)" transform="translate(979 3536)">
+      <g id="Group_108-4" data-name="Group 108">
+        <path id="Path_110-4" data-name="Path 110" d="M0,0H24V24H0Z" fill="none"/>
+        <path id="Path_111-4" data-name="Path 111" d="M0,0H24V24H0Z" fill="none"/>
+      </g>
+      <g id="Group_109-4" data-name="Group 109">
+        <path id="Path_112-4" data-name="Path 112" d="M12,17.27,18.18,21l-1.64-7.03L22,9.24l-7.19-.61L12,2,9.19,8.63,2,9.24l5.46,4.73L5.82,21Z" fill="#da2b39"/>
+      </g>
+    </g>
+    <g id="star_black_24dp_1_5" data-name="star_black_24dp (1)" transform="translate(1002 3536)">
+      <g id="Group_108-5" data-name="Group 108">
+        <path id="Path_110-5" data-name="Path 110" d="M0,0H24V24H0Z" fill="none"/>
+        <path id="Path_111-5" data-name="Path 111" d="M0,0H24V24H0Z" fill="none"/>
+      </g>
+      <g id="Group_109-5" data-name="Group 109">
+        <path id="Path_112-5" data-name="Path 112" d="M12,17.27,18.18,21l-1.64-7.03L22,9.24l-7.19-.61L12,2,9.19,8.63,2,9.24l5.46,4.73L5.82,21Z" fill="#da2b39"/>
+      </g>
+    </g>
+    <text id="Trust" transform="translate(908 3528)" fill="#747171" font-size="18" font-family="Segoe UI" font-weight="700"><tspan x="0" y="0">Trust</tspan></text>
+    <text id="_5.0_stars_from_160_reviews" data-name="5.0 stars from 160 reviews" transform="translate(908 3578)" fill="#747171" font-size="15" font-family="Segoe UI"><tspan x="0" y="0">5.0 stars from 160 reviews</tspan></text>
+    <text id="Badges" transform="translate(908 3612)" fill="#747171" font-size="18" font-family="Segoe UI" font-weight="700"><tspan x="0" y="0">Badges</tspan></text>
+    <g id="Ellipse_8" data-name="Ellipse 8" transform="translate(908 3628)" fill="#fff" stroke="#2274a4" stroke-width="1">
+      <circle cx="20" cy="20" r="20" stroke="none"/>
+      <circle cx="20" cy="20" r="19.5" fill="none"/>
+    </g>
+    <g id="Ellipse_9" data-name="Ellipse 9" transform="translate(963 3628)" fill="#fff" stroke="#2274a4" stroke-width="1">
+      <circle cx="20" cy="20" r="20" stroke="none"/>
+      <circle cx="20" cy="20" r="19.5" fill="none"/>
+    </g>
+    <path id="Path_29" data-name="Path 29" d="M10,6H5A2,2,0,0,0,3,8v9a2,2,0,0,0,2,2H19a2,2,0,0,0,2-2V8a2,2,0,0,0-2-2H14M10,6V5a2,2,0,0,1,4,0V6M10,6a2,2,0,0,0,4,0M9,14a2,2,0,1,0-2-2A2,2,0,0,0,9,14Zm0,0a3,3,0,0,1,2.83,2M9,14a3,3,0,0,0-2.83,2M15,11h3m-3,4h2" transform="translate(916 3637)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_30" data-name="Path 30" d="M9,12l2,2,4-4M7.835,4.7a3.42,3.42,0,0,0,1.946-.806,3.42,3.42,0,0,1,4.438,0,3.42,3.42,0,0,0,1.946.806A3.42,3.42,0,0,1,19.3,7.835a3.42,3.42,0,0,0,.806,1.946,3.42,3.42,0,0,1,0,4.438,3.42,3.42,0,0,0-.806,1.946A3.42,3.42,0,0,1,16.165,19.3a3.42,3.42,0,0,0-1.946.806,3.42,3.42,0,0,1-4.438,0A3.42,3.42,0,0,0,7.835,19.3,3.42,3.42,0,0,1,4.7,16.165a3.42,3.42,0,0,0-.806-1.946,3.42,3.42,0,0,1,0-4.438A3.42,3.42,0,0,0,4.7,7.835,3.42,3.42,0,0,1,7.835,4.7Z" transform="translate(971 3636)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <g id="Ellipse_116" data-name="Ellipse 116" transform="translate(1009 3228)" fill="#fff" stroke="#707070" stroke-width="1">
+      <ellipse cx="58.5" cy="59" rx="58.5" ry="59" stroke="none"/>
+      <ellipse cx="58.5" cy="59" rx="58" ry="58.5" fill="none"/>
+    </g>
+    <g id="Rectangle_125" data-name="Rectangle 125" transform="translate(907 3697)" fill="#fff" stroke="#2274a4" stroke-width="1">
+      <rect width="321" height="52" stroke="none"/>
+      <rect x="0.5" y="0.5" width="320" height="51" fill="none"/>
+    </g>
+    <text id="REQUEST_TASKER" data-name="REQUEST TASKER" transform="translate(1030 3729)" fill="#747171" font-size="15" font-family="Segoe UI" font-weight="600"><tspan x="0" y="0">Apply Now</tspan></text>
+  </g>
+</svg>
