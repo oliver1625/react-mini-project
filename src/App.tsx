@@ -1,21 +1,28 @@
 import React, { useEffect } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { QueryClient, QueryClientProvider, useQuery } from 'react-query'
-import { useState } from 'react';
-import Table from './Components/Table';
-import Header from './Components/Header';
-
-const queryClient = new QueryClient()
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'font-awesome/css/font-awesome.min.css';
+import styled from 'styled-components';
+import CardBlock from './Components/CardBlock';
+import NavBarTop from './Components/NavBarTop';
+import Hero from './Components/Hero';
+import Top from './Components/Top';
+import HelpBanner from './Components/HelpBanner';
+import Review from './Components/Review';
+import ProvideJob from './Components/ProvideJob';
+import Footer from './Components/Footer';
 
 function App() {
   return (
-    <QueryClientProvider client={queryClient}>
       <main className="">       
-        <Table />
+        <Top />
+        <NavBarTop />
+        <Hero />
+        {/* <HelpBanner /> */}
+        <Review />
+        <ProvideJob />
+        <Footer />
       </main>
-    </QueryClientProvider>
   )
 }
 export default App;

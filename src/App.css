@@ -1,3 +1,14 @@
+:root {
+  --border-color: #C7C7C7;
+  --text-color: #5F5D5D;
+  --red-color: #DA2B39;
+}
+@font-face {
+  font-family: 'Segoe';
+src: url('./Segoe-UI-Font/SEGOEUI.TTF'), url('./Segoe-UI-Font/SEGOEUI.TTF') format('truetype'), url('./Segoe-UI-Font/SEGOEUI.TTF') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 *{
   margin: 0;
   padding: 0;
@@ -7,203 +18,55 @@ html{
   font-size: 62.5%;
 }
 body{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Segoe';
 }
 h1{
   font-size: 2.5rem;
+  color: var(--text-color);
 }
 h2{
   font-size: 2rem;
+  color: var(--text-color);
 }
 h3{
   font-size: 1.5rem;
+  color: var(--text-color);
+}
+h4{
+  font-size: 1.4rem;
+  color: var(--text-color);
+}
+h5{
+  font-size: 1.3rem;
+  color: var(--text-color);
 }
 a{
   text-decoration: none;
 }
 p{
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+  color: var(--text-color);
+}
+.container-fluid{
+  width: 95% !important;
+  margin: auto;
+}
+.fw-700{
+  font-weight: 700 !important;
 }
 .btn-primary{
-  background-color: #1c6163;
+  background-color: white !important;
   border: none;
-  color: white;
+  color: black !important;
   padding: 1rem;
   border-radius: 5px;
-}
-.container{
-  margin: auto;
-  width: 80%;
-  padding: 3rem;
-}
-@media only screen and (min-width: 1500px) {
-  main{
-    margin: auto;
-    width: 60%;
-  }
-  .table-wrapper{
-    border: 1px solid lightgray;
-    border-top: none;
-  }
-}
-.checkbox{
-  cursor: pointer;
-}
-.search{
-  border-radius: 5px;
-  margin-right: 1rem;
-  background: none;
-  border: 1px solid lightgray;
-  padding: 1rem;
-}
-.header{
-  display: flex;
-  justify-content: space-between;
-  padding: 2rem 4rem;
-}
-.table-head{
-  display: flex;
-  align-items: center;
-  background-color: rgba(135, 207, 235, 0.349);
-  padding: 1rem;
-  border-top: 1px solid lightgray;
-  border-bottom: 1px solid lightgray;
-}
-
-.table-body{
-  display: flex;
-  align-items: center;
-  padding: 1rem;
-  border-bottom: 1px solid lightgray;
-}
-.table-head .th{
-  font-weight: 400;
-  font-size: 1.2rem;
-}
-.table-head .th{
-  flex: 1 1 12%;
-}
-.table-head .th:first-child{
-  flex: 1 1 5%;
-}
-.table-head .th:nth-child(2){
-  flex: 1 1 14%;
-}
-.table-head .th:nth-child(3){
-  flex: 1 1 12%;
-}
-.table-head .th:nth-child(4){
-  flex: 1 1 17%;
-}
-.table-head .th:nth-child(5){
-  flex: 1 1 15%;
-}
-
-
-/* For table body */
-
-.table-body .td{
-  font-weight: 400;
-  font-size: 1rem;
-}
-.table-body .td{
-  flex: 1 1 12%;
-}
-.table-body .td:first-child{
-  flex: 1 1 5%;
-}
-.table-body .td:nth-child(2){
-  flex: 1 1 14%;
-}
-.table-body .td:nth-child(3){
-  flex: 1 1 12%;
-}
-.table-body .td:nth-child(4){
-  flex: 1 1 17%;
-}
-.table-body .td:nth-child(5){
-  flex: 1 1 15%;
-}
-
-.table-responsive{
+  border: 1px solid var(--border-color) !important;
   width: 100%;
-  display: block;
-  overflow-x: scroll;
-  white-space: nowrap;
 }
-.table-wrapper{
-  min-width: 80rem;
-}
-.table-responsive::-webkit-scrollbar {
-  width: 5px;
-}
-.table-responsive::-webkit-scrollbar-thumb {
-  background: #888;
-  border-radius: 20px;
-}
-.table-responsive::-webkit-scrollbar-thumb:hover {
-  background: #555;
-  border-radius: 20px;
-}
-
-
-.search-wrap{
+.footer{
+  background-image: linear-gradient(to bottom,rgba(34,116,164,0.7), rgba(34,116,164,0.7)), url('./img/boudha-stupa.jpg');
+  background-position: center;
+  background-size: cover;
   position: relative;
-  width:75%;
-}
-.header-right{
-  display: flex;
-  align-items: center;
-}
-.search-box{
-  margin-right: 2rem;
-  background: lightgray;
-  border: 1px solid lightgray;
-  height: 40px;
-  border-radius: 40px;
-}
-.search-box:hover > input{
-  width: 200px;
-  padding: 0 10px;
-  display: initial;
-  transition: all .5s ease-in-out;
-  background-color: lightgray;
-  border: 1px solid lightgray;
-  border-radius: 40px;
-}
-.search-box:hover > .icon{
-  background-color: lightgray;
-}
-.icon:hover{
-  transform: rotate(360deg);
-  scale: 0.8;
-}
-.search-box input{
-  width: 0;
-  border: none;
-  outline: none;
-  padding: 0;
-  background: none;
-  font-size: 1.1rem;
-  transition: .5s ease;
-  line-height: 37px;
-  color: black;
-  display: none;
-  transition: all .5s ease-in-out;
-}
-.icon{
-  color: black;
-  float: right;
-  width: 38px;
-  font-size: 1.3rem;
-  height: 38px;
-  border-radius: 50%;
-  background: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: .4s;
-  cursor: pointer;
-  text-decoration: none;
-  border: 1px solid lightgray !important;
+  background-color: #2274A4;
 }
