@@ -38,7 +38,7 @@ function Hero() {
             </Container>
             <Container fluid>
             <Row>
-                <Col sm='2'>
+                <Col sm='2' className='d-none d-sm-block'>
                     <HeroLeft>
                     <img className='' src={reactangle126} alt="" />
                     </HeroLeft>
