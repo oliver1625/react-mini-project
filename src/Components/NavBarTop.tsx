@@ -11,108 +11,108 @@ function NavBarTop() {
           expand="md"
           light
         >
-      <NavbarToggler onClick={function noRefCheck(){}} />
-      <Collapse navbar>
-          <Nav
-            className="me-auto"
-            navbar
-          >
-            <NavItem>
-              <NavLink className='pl-0'>
-                Home
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink>
-                About Us
-              </NavLink>
-            </NavItem>
-            <UncontrolledDropdown
-              inNavbar
-              nav
-            >
-              <DropdownToggle
-                caret
-                nav
+          <NavbarToggler onClick={function noRefCheck(){}} />
+          <Collapse navbar>
+              <Nav
+                className="me-auto"
+                navbar
               >
-                Shop
-              </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem>
-                  Option 1
-                </DropdownItem>
-                <DropdownItem>
-                  Option 2
-                </DropdownItem>
-                <DropdownItem>
-                  Reset
-                </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
-            <UncontrolledDropdown
-              inNavbar
-              nav
-            >
-              <DropdownToggle
-                caret
-                nav
-              >
-                Task
-              </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem>
-                  Option 1
-                </DropdownItem>
-                <DropdownItem>
-                  Option 2
-                </DropdownItem>
-                <DropdownItem>
-                  Reset
-                </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
-            <UncontrolledDropdown
-              inNavbar
-              nav
-            >
-              <DropdownToggle
-                caret
-                nav
-              >
-                Jobs
-              </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem>
-                  Option 1
-                </DropdownItem>
-                <DropdownItem>
-                  Option 2
-                </DropdownItem>
-                <DropdownItem>
-                  Reset
-                </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
-            <NavItem>
-              <NavLink>
-                Post Jobs
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink>
-                Browse Jobs
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink>
-                Contact
-              </NavLink>
-            </NavItem>
-          </Nav>
-          <NavbarText>
-            Register/ Login
-          </NavbarText>
-      </Collapse>
+                <NavItem>
+                  <NavLink className='pl-0'>
+                    Home
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink>
+                    About Us
+                  </NavLink>
+                </NavItem>
+                <UncontrolledDropdown
+                  inNavbar
+                  nav
+                >
+                  <DropdownToggle
+                    caret
+                    nav
+                  >
+                    Shop
+                  </DropdownToggle>
+                  <DropdownMenu right>
+                    <DropdownItem>
+                      Option 1
+                    </DropdownItem>
+                    <DropdownItem>
+                      Option 2
+                    </DropdownItem>
+                    <DropdownItem>
+                      Reset
+                    </DropdownItem>
+                  </DropdownMenu>
+                </UncontrolledDropdown>
+                <UncontrolledDropdown
+                  inNavbar
+                  nav
+                >
+                  <DropdownToggle
+                    caret
+                    nav
+                  >
+                    Task
+                  </DropdownToggle>
+                  <DropdownMenu right>
+                    <DropdownItem>
+                      Option 1
+                    </DropdownItem>
+                    <DropdownItem>
+                      Option 2
+                    </DropdownItem>
+                    <DropdownItem>
+                      Reset
+                    </DropdownItem>
+                  </DropdownMenu>
+                </UncontrolledDropdown>
+                <UncontrolledDropdown
+                  inNavbar
+                  nav
+                >
+                  <DropdownToggle
+                    caret
+                    nav
+                  >
+                    Jobs
+                  </DropdownToggle>
+                  <DropdownMenu right>
+                    <DropdownItem>
+                      Option 1
+                    </DropdownItem>
+                    <DropdownItem>
+                      Option 2
+                    </DropdownItem>
+                    <DropdownItem>
+                      Reset
+                    </DropdownItem>
+                  </DropdownMenu>
+                </UncontrolledDropdown>
+                <NavItem>
+                  <NavLink>
+                    Post Jobs
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink>
+                    Browse Jobs
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink>
+                    Contact
+                  </NavLink>
+                </NavItem>
+              </Nav>
+              <NavbarText>
+                Register/ Login
+              </NavbarText>
+          </Collapse>
         </Navbar>
       </StyledNavBar>
   )
